@@ -1,25 +1,14 @@
 # Multi-PDF Chatbot
 
-This project is a 
+The Multi-PDF Chatbot is a Python application that allows user to chat with multiple PDF documents. Users can ask questions about the PDFs in natural language and the application will provide relevant responses based on the content of the documents. This app utilizes a language model to generate accurate answers to your queries. Please note that the app will only respond to questions related to the loaded PDFs.
 
 ## Features
 
-- **Create:** Add new contacts with their first name, last name, and email.
-- **Read:** View a list of contacts with their details.
-- **Update:** Modify existing contact information.
-- **Delete:** Remove unwanted contacts from the database.
-- **Error Handling:**
-  - Ensure non-empty entries for first name, last name, and email fields.
-  - Prevent the creation of contacts with duplicate email addresses.
-
-## Technologies Used
-
-- **Backend:**
-  - Flask: A lightweight web framework for building the backend.
-  - SQLAlchemy: An ORM for working with databases in Flask applications.
-
-- **Frontend:**
-  - React: A JavaScript library for building user interfaces.
+- **PDF Loading:** Efficiently loads multiple PDF documents, extracting their text content for further processing.
+- **Text Chunking:** Divides the extracted text into manageable chunks, optimizing the processing workflow.
+- **Language Model Integration:** Utilizes a sophisticated language model to generate vector representations (embeddings) of the text chunks.
+- **Similarity Matching:** Employs advanced similarity matching techniques to compare your queries with text chunks, identifying the most semantically similar content.
+- **Dynamic Response Generation:** Selected text chunks are passed to the language model, dynamically generating responses based on the relevant content of the loaded PDFs.
 
 ## Getting Started
 
@@ -55,5 +44,5 @@ This project is a
    ```
 ### Example Demo
 
-<img width="458" alt="image" src="https://github.com/YouXuan2010/Multi-PDF-Chat-App/assets/100280753/6df32cff-2ef5-469a-b26f-e2606d6590e7">
+<img width="600" alt="image" src="https://github.com/YouXuan2010/Multi-PDF-Chat-App/assets/100280753/6df32cff-2ef5-469a-b26f-e2606d6590e7">
 

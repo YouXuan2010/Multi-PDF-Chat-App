@@ -1,6 +1,8 @@
 # Multi-PDF Chatbot
 
-The Multi-PDF Chatbot is a Python application that allows user to chat with multiple PDF documents. Users can ask questions about the PDFs in natural language and the application will provide relevant responses based on the content of the documents. This app utilizes a language model to generate accurate answers to your queries. Please note that the app will only respond to questions related to the loaded PDFs.
+The Multi-PDF Chatbot is a Python application that allows user to chat with multiple PDF documents. Users can ask questions about the PDFs in natural language and the application will provide relevant responses based on the content of the documents. This app utilizes a language model to generate accurate answers to your queries. Please note that the app will only respond to questions related to the loaded PDFs.\
+
+<img width="700" alt="image" src="https://github.com/YouXuan2010/Multi-PDF-Chat-App/assets/100280753/68ee9249-b48a-42f2-a593-fdc3c3948867">
 
 ## Features
 
@@ -35,22 +37,19 @@ The Multi-PDF Chatbot is a Python application that allows user to chat with mult
    ```
 
 ### Running the application
-
-1. Run the main.py file using the Streamlit CLI:
+Run the main.py file using the Streamlit CLI:
    ```bash
    streamlit run app.py
    ```
-### Example Demo
+## Example Demo
 
-1. Answering user's queries based on the given pdf file:
-<img width="800" alt="image" src="https://github.com/YouXuan2010/Multi-PDF-Chat-App/assets/100280753/6df32cff-2ef5-469a-b26f-e2606d6590e7">
+Answering user's queries based on the given pdf file:\
+<img width="700" alt="image" src="https://github.com/YouXuan2010/Multi-PDF-Chat-App/assets/100280753/6df32cff-2ef5-469a-b26f-e2606d6590e7">
 
-2. Nice and cool uploading user interface:
-<p align="center">
-  <img height="400" alt="Nice and cool uploading user interface" src="https://github.com/YouXuan2010/Multi-PDF-Chat-App/assets/100280753/4e7b5ba3-1a3f-44d5-88d0-ce099299123b">
-</p>
+User interface to upload pdf:\
+<img height="500" alt="image" src="https://github.com/YouXuan2010/Multi-PDF-Chat-App/assets/100280753/4e7b5ba3-1a3f-44d5-88d0-ce099299123b">
 
 
-3. Basic error handling:
-<img width="800" alt="image" src="https://github.com/YouXuan2010/Multi-PDF-Chat-App/assets/100280753/1575e03a-c63e-4c51-9913-3e91d9704874">
+Basic error handling:\
+<img width="700" alt="image" src="https://github.com/YouXuan2010/Multi-PDF-Chat-App/assets/100280753/1575e03a-c63e-4c51-9913-3e91d9704874">
 

@@ -6,11 +6,14 @@ The Multi-PDF Chatbot is a Python application that allows user to chat with mult
 
 ## Features
 
-- **PDF Loading:** Efficiently loads multiple PDF documents, extracting their text content for further processing.
-- **Text Chunking:** Divides the extracted text into manageable chunks, optimizing the processing workflow.
-- **Language Model Integration:** Utilizes a sophisticated language model to generate vector representations (embeddings) of the text chunks.
-- **Similarity Matching:** Employs advanced similarity matching techniques to compare your queries with text chunks, identifying the most semantically similar content.
-- **Dynamic Response Generation:** Selected text chunks are passed to the language model, dynamically generating responses based on the relevant content of the loaded PDFs.
+- **PDF Text Extraction:** Efficiently extracts text from multiple PDF documents, providing a comprehensive source for information retrieval.
+- **Text Chunking:** Divides the extracted text into manageable chunks, optimizing processing and ensuring efficient handling of large datasets.
+- **Embeddings Generation:** Utilizes OpenAIEmbeddings to generate vector representations of text chunks, enhancing the semantic understanding of content. You can also use HuggingFaceInstructEmbeddings and search for your own embedding models in HuggingFace.
+- **Vector Store Creation:** Creates a vector store using FAISS, enabling efficient storage and retrieval of text representations for improved performance.
+- **Conversational Chain:** Establishes a Conversational Retrieval Chain using ChatOpenAI, facilitating dynamic interactions with the loaded PDF content.
+- **Memory Management:** Implements a ConversationBufferMemory to store and retrieve chat history, enhancing context awareness for more coherent responses.
+- **User-Defined Models:** Allows flexibility in choosing different text-to-text generation models in Huggingface (Need to configure your HUGGINGFACEHUB_API_TOKEN), enabling adaptation to specific project requirements.
+
 
 ## Getting Started
 
@@ -31,9 +34,10 @@ The Multi-PDF Chatbot is a Python application that allows user to chat with mult
    pip install -r requirements.txt
    ```
    
-3. Obtain an API key from OpenAI and add it to the .env file under the project directory:
+3. Obtain an API key from OpenAI and HuggingFace (If you want to use HuggingFace Models) and add it to the .env file under the project directory:
    ```bash
-   OPENAI_API_KEY=your_secret_api_key
+   OPENAI_API_KEY=sk-XXXXXXXXX
+   HUGGINGFACEHUB_API_TOKEN=XXXXXXXXXXX
    ```
 
 ### Running the application

@@ -46,7 +46,10 @@ The Multi-PDF Chatbot is a Python application that allows user to chat with mult
 <img width="800" alt="image" src="https://github.com/YouXuan2010/Multi-PDF-Chat-App/assets/100280753/6df32cff-2ef5-469a-b26f-e2606d6590e7">
 
 2. Nice and cool uploading user interface:
-<img width="800" alt="image" src="https://github.com/YouXuan2010/Multi-PDF-Chat-App/assets/100280753/4e7b5ba3-1a3f-44d5-88d0-ce099299123b">
+<p align="center">
+  <img height="400" alt="Nice and cool uploading user interface" src="https://github.com/YouXuan2010/Multi-PDF-Chat-App/assets/100280753/4e7b5ba3-1a3f-44d5-88d0-ce099299123b">
+</p>
+
 
 3. Basic error handling:
 <img width="800" alt="image" src="https://github.com/YouXuan2010/Multi-PDF-Chat-App/assets/100280753/1575e03a-c63e-4c51-9913-3e91d9704874">

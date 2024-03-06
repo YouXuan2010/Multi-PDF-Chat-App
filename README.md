@@ -14,9 +14,7 @@ The Multi-PDF Chatbot is a Python application that allows user to chat with mult
 
 ### Prerequisites
 
-- Python 3.x
-- Node.js
-- npm
+- Python 3.9
 
 ### Installation
 
@@ -44,5 +42,5 @@ The Multi-PDF Chatbot is a Python application that allows user to chat with mult
    ```
 ### Example Demo
 
-<img width="600" alt="image" src="https://github.com/YouXuan2010/Multi-PDF-Chat-App/assets/100280753/6df32cff-2ef5-469a-b26f-e2606d6590e7">
+<img width="800" alt="image" src="https://github.com/YouXuan2010/Multi-PDF-Chat-App/assets/100280753/6df32cff-2ef5-469a-b26f-e2606d6590e7">
 

@@ -2,8 +2,6 @@
 
 This project is a 
 
-<img width="458" alt="image" src="https://github.com/YouXuan2010/Multi-PDF-Chat-App/assets/100280753/6df32cff-2ef5-469a-b26f-e2606d6590e7">
-
 ## Features
 
 - **Create:** Add new contacts with their first name, last name, and email.
@@ -36,19 +34,17 @@ This project is a
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YouXuan2010/My-Contact-App.git
+   git clone https://github.com/YouXuan2010/Multi-PDF-Chat-App.git
    ```
 
-2. Navigate to the backend directory and install Python dependencies:
+2. Install the required dependencies:
    ```bash
-   cd backend
    pip install -r requirements.txt
    ```
    
-3. Navigate to the frontend directory and install npm packages:
+3. Obtain an API key from OpenAI and add it to the .env file under the project directory:
    ```bash
-   cd frontend
-   npm install
+   OPENAI_API_KEY=your_secret_api_key
    ```
 
 ### Running the application
@@ -57,4 +53,7 @@ This project is a
    ```bash
    streamlit run app.py
    ```
+### Example Demo
+
+<img width="458" alt="image" src="https://github.com/YouXuan2010/Multi-PDF-Chat-App/assets/100280753/6df32cff-2ef5-469a-b26f-e2606d6590e7">
 

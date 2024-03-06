@@ -1,6 +1,6 @@
 # Multi-PDF Chatbot
 
-The Multi-PDF Chatbot is a Python application that allows user to chat with multiple PDF documents. Users can ask questions about the PDFs in natural language and the application will provide relevant responses based on the content of the documents. This app utilizes a language model to generate accurate answers to your queries. Please note that the app will only respond to questions related to the loaded PDFs.
+The Multi-PDF Chatbot is a Python application that allows user to chat with multiple PDF documents using LangChain and ChatGPT API. Users can ask questions about the PDFs in natural language and the application will provide relevant responses based on the content of the documents. This app utilizes a language model to generate accurate answers to your queries. Please note that the app will only respond to questions related to the loaded PDFs.
 
 <img width="700" alt="image" src="https://github.com/YouXuan2010/Multi-PDF-Chat-App/assets/100280753/68ee9249-b48a-42f2-a593-fdc3c3948867">
 
